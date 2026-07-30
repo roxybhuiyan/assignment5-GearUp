@@ -27,7 +27,7 @@ export function ProfileForm({ user }: { user: User }) {
         )}
       </div>
       <div className="space-y-1.5">
-        <Label htmlFor="phone">Phone</Label>
+        <Label htmlFor="phone">Phone Number</Label>
         <Input id="phone" name="phone" defaultValue={user.phone} required />
         {state.fieldErrors?.phone && <p className="text-sm text-destructive">{state.fieldErrors.phone}</p>}
       </div>
