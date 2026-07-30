@@ -8,7 +8,7 @@ import { ConfirmDialog } from "@/components/common/confirm-dialog";
 import { deleteGear } from "@/actions/gear.actions";
 
 //--
-
+// GearActions.tsx
 export function GearActions({ gearId }: { gearId: string }) {
   return (
     <div className="flex items-center gap-2">
