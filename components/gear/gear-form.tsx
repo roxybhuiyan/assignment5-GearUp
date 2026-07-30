@@ -129,6 +129,7 @@ export function GearForm({ categories, gear }: GearFormProps) {
         )}
       </div>
 
+// Submit Button
       <Button type="submit" disabled={isPending} className="sm:col-span-2">
         {isPending ? "Saving..." : gear ? "Save changes" : "Add gear"}
       </Button>
