@@ -7,6 +7,8 @@ import { Button } from "@/components/ui/button";
 import { ConfirmDialog } from "@/components/common/confirm-dialog";
 import { deleteGear } from "@/actions/gear.actions";
 
+//--
+
 export function GearActions({ gearId }: { gearId: string }) {
   return (
     <div className="flex items-center gap-2">
