@@ -23,6 +23,8 @@ export function PayButton({ rentalOrderId }: { rentalOrderId: string }) {
     });
   }
 
+
+  //-----
   return (
     <Button onClick={handlePay} disabled={isPending} className="w-full">
       {isPending ? "Redirecting to Stripe..." : "Pay Now"}
