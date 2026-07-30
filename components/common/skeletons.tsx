@@ -14,6 +14,8 @@ export function GearGridSkeleton({ count = 8 }: { count?: number }) {
   );
 }
 
+
+// Table Skeleton
 export function TableSkeleton({ rows = 6 }: { rows?: number }) {
   return (
     <div className="space-y-2">
